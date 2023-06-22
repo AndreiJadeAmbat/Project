@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&display=swap');
+body{
+  font-family:'Nunito Sans', sans-serif;
+}
+h1{
+  font-weight: bold;
+}
+h5{
+  font-weight: bold;
+}
+.navbar{
+    background: linear-gradient(to right,  rgb(132, 84, 244), rgb(132, 84, 244), rgb(132, 84, 244));
+}
+.cont-1{
+  background: linear-gradient(to right,   rgb(132, 84, 244), rgb(132, 84, 244), rgb(132, 84, 244));
+}
+.nav-link{
+  font-size: 17px;
+}
+.sak1{
+  background: linear-gradient(to right,  rgb(132, 84, 244), rgb(132, 84, 244), rgb(132, 84, 244));
+}
+.but{
+  background: linear-gradient(to right,black, black, black);
+  border: #660fa8;
+}
+.zum{
+        overflow: hidden;
+}
+.zum img{
+  width: 100%;
+        transition: 0.5s all ease-in-out;
+}
+.zum:hover img {
+  transform: scale(1.5);
+}
+.umama{
+  display: inline-block;
+  margin-right: auto;
+  
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* xs */
+@media (min-width: 375px) {
+  .body{
+    max-width: 375px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .body{
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .body{
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .cbody{
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .body{
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .body{
+    max-width: 1536px;
+  }
+}
+
+.container-fluid{
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px){
+  .body {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px){
+  .body{
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px){
+  .body{
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .body{
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .body{
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 375px) {
+  .body{
+    width: 100%;
+  }
+}
+
